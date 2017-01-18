@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DeigoTester1
+  host: DeigoTester1
+  disk_quota: 1024M
+  services:
+  - DeigoTester1-personality_insights
